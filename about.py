@@ -53,7 +53,7 @@ class AboutHotel:
         canvas.create_text(647,245,text=hotel_info,font=("times new roman",18,"bold"),fill="white",justify=LEFT,width=1200)
 
 
-if __name__ == "_main_":
+if __name__ == "__main__":
     root = Tk()
     obj = AboutHotel(root)
     root.mainloop()       
